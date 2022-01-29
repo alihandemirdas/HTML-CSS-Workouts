@@ -1,0 +1,245 @@
+/* Alihan Demirdaş - 20010011054 */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    background-color: #a5d3ca;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.container {
+    width: 1366px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+nav {
+    background-color: #323448;
+    color: #fff;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+}
+
+#logo-box {
+    float: left;
+    padding-top: .7rem;
+    transition: none;
+}
+
+#logo-box .logo {
+    color: #fff;
+    font-weight: 800;
+    font-size: 3.2rem;
+}
+
+#nav-links {
+    float: right;
+}
+
+#nav-links >ul>li {
+    float: left;
+    margin: .5rem;
+}
+
+.nav-links > ul{
+    display: flex;
+    align-items: center;
+}
+
+.nav-links > ul > li{
+    position: relative;
+}
+
+.nav-links > ul > li > a{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 1.6rem;
+    letter-spacing: .2rem;
+    line-height: 1.6rem;
+    
+}
+
+#nav-links > ul > li >a{
+    display: block;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 1.6rem;
+    letter-spacing: .2rem;
+    transition: color .2s;
+}
+
+#first{
+    border: 1px solid #18bc9c;
+    border-radius: 1.5rem;
+    height: 50px;
+}
+
+#nav-links ul .dropdown{
+    position: absolute;
+    top: 50px;
+    padding-top: 18px;
+    display: none;
+}
+
+#nav-links ul .dropdown ul{
+    background-color: #18bc9c;
+    border-radius: 1.5rem;
+}
+
+#nav-links ul .dropdown ul li a{
+    display: block;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 1.6rem;
+    letter-spacing: .2rem;
+    transition: background-color .2s;
+}
+
+#nav-links ul .dropdown ul li a:hover{
+    background-color: #323448;
+}
+
+#nav-links >ul>li:hover>a {
+    color: #18bc9c;
+}
+
+#nav-links >ul>li>a:hover + .dropdown{
+    display: block;
+}
+
+#name1{
+    color:#323448;
+    text-align: center;
+    padding-top: 230px;
+    font-size: 110px;
+    font-weight: 700;
+}
+
+#description{
+    color:#494b63;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+#hakkimizdah4{
+    color:#323448;
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 35px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#hakkimizdah5{
+    color:#494b63;
+    text-align: left;
+    padding-top: 35px;
+    padding-left: 35px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#yeni {
+    text-align: center;
+    padding-top: 35px;
+    padding-left: 35px;
+    background-color: #a5d3ca;
+}
+
+#formh2 {
+    color:#323448;
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 35px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+input[type=text] {
+    width: 500px;
+    text-align: left;
+    padding: 12px 10px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+input[type=email] {
+    width: 500px;
+    padding: 12px 10px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+#pword {
+    width: 500px;
+    padding: 12px 10px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 500px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer; 
+}
+
+
+input[type=file] {
+    width: -50px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+input[type=submit]:hover {
+    background-color: #4CAF90;
+}
+
+
